@@ -1,5 +1,5 @@
-const ch = function(x) {
+const chA = function(x) {
     Math.cosh(4)
 }
 
-module.exports = ch
+module.exports = chA
