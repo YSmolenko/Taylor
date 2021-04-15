@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 app.listen(3000)
 
 const chA = function(x) {
-    return Math.cosh(x)
+    return (Math.exp(x) - Math.exp(-x))/2
 }
 
 module.exports = chA
